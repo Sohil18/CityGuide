@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@color/zircon"
+    android:layout_margin="10dp"
+    android:layout_marginTop="5dp"
+    tools:context=".Details_Page">
+    <ScrollView
+        android:id="@+id/scr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/dimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </androidx.cardview.widget.CardView>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/a"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Availability :"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/davability"
+                    android:layout_toRightOf="@+id/a"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload State"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/b"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description :"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/ddescription"
+                    android:layout_below="@id/b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upload State"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/c"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="District : "
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/ddirdtic"
+                    android:layout_toRightOf="@+id/c"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload State"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/d"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guide Name :"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/dguide"
+                    android:layout_toRightOf="@+id/d"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload State"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/e"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Language :"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/dlanguage"
+                    android:layout_toRightOf="@+id/e"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload State"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/f"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Place :"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/dplace"
+                    android:layout_toRightOf="@+id/f"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload State"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/opensans"
+                    android:gravity="center"
+                    android:text="Price :"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/dprice"
+                    android:layout_toRightOf="@+id/g"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload State"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/h"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Service:"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/dservice"
+                    android:layout_toRightOf="@+id/h"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload State"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/i"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="State:"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/dstate"
+                    android:layout_toRightOf="@+id/i"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload State"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/j"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Topic:"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/dtopic"
+                    android:layout_toRightOf="@+id/j"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload State"
+                    android:fontFamily="@font/opensans"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal" />
+            </RelativeLayout>
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="Accept"
+                    android:id="@+id/acceptbtn"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bthre"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".Fill_Detail">
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/rrlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Conform Booking Page"
+        android:textColor="@color/black"
+        android:fontFamily="@font/opensans"
+        android:textSize="20sp"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/rname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Confirm Booking Page"
+        android:textColor="@color/black"
+        android:fontFamily="@font/opensans"
+        android:textSize="20sp"/>
+    <TextView
+android:id="@+id/dprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Confirm Booking Page"
+        android:textColor="#F44336"
+        android:fontFamily="@font/opensans"
+        android:textSize="20sp"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Confirm Booking Page"
+        android:textColor="#F44336"
+        android:fontFamily="@font/opensans"
+        android:textSize="20sp"/>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/black">
+
+        <EditText
+android:id="@+id/startdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Journey Start Date"
+            android:textSize="20sp"
+            android:fontFamily="@font/opensans"
+            android:inputType="textNoSuggestions"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:importantForAutofill="no"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/black">
+
+        <EditText
+android:id="@+id/enddate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Journey End Date"
+            android:textSize="20sp"
+            android:fontFamily="@font/opensans"
+            android:inputType="textNoSuggestions"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:importantForAutofill="no"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/black">
+
+        <EditText
+android:id="@+id/pickuppoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Pickup Point"
+            android:textSize="20sp"
+            android:fontFamily="@font/opensans"
+            android:inputType="textNoSuggestions"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:importantForAutofill="no"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/black">
+
+        <EditText
+android:id="@+id/drouppoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Drop Point"
+            android:textSize="20sp"
+            android:fontFamily="@font/opensans"
+            android:inputType="textNoSuggestions"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:importantForAutofill="no"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black"
+        app:boxStrokeColor="@color/black">
+
+        <EditText
+            android:id="@+id/noofdays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="No. Of Days"
+            android:textSize="20sp"
+            android:fontFamily="@font/opensans"
+            android:inputType="textNoSuggestions"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:importantForAutofill="no"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/makepayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Payment"/>
+</LinearLayout>
